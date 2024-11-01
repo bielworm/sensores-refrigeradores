@@ -18,7 +18,7 @@
     "lottie-react": "^2.4.0",
     "next": "12.2.5",
     "next-pwa": "^5.6.0",
-    "node-sass": "^7.0.1",
+    "node-sass": "^9.0.0",
     "react": "18.2.0",
     "react-currency-input-field": "^3.6.10",
     "react-dom": "18.2.0",
