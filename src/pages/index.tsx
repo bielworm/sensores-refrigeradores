@@ -4,6 +4,7 @@ import Head from 'next/head'
 import { LoginForm } from '../components/Forms/LoginForm'
 import Container from '../components/Partials/Container'
 import SensorMonitor from '../components/SensorMonitor'
+import { Icon } from '@iconify/react'
 
 const Home: NextPage = () => {
   return (
@@ -14,23 +15,10 @@ const Home: NextPage = () => {
             <h2 className="font-thin underline text-white mb-4 text-center">
               Sensores - Refrigeradores
             </h2>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              viewBox="0 0 24 24"
-            >
-              <g
-                fill="none"
-                stroke="#FFF"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="1.5"
-              >
-                <path d="M6 12a5 5 0 1 0 6 0m-6 0V3h6v9m0-9h2m-2 3h2m-2 3h2m5-2a2 2 0 1 0 0-4a2 2 0 0 0 0 4" />
-                <path d="M9 14a2 2 0 1 0 0 4a2 2 0 0 0 0-4m0 0v-3" />
-              </g>
-            </svg>
+            <Icon
+              icon="iconoir:temperature-low"
+              className="text-white text-3xl"
+            />
           </div>
           <SensorMonitor />
         </div>
